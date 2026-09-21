@@ -1,0 +1,36 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# environments
+.venv/
+uv.lock.bak
+
+# tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# agents
+.claude/
+.codex/
+.cursor/
+.aider*
+.continue/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.mcp.json
+
+# credentials
+secrets/
+keys/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
