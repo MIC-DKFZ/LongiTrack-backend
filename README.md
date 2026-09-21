@@ -118,6 +118,13 @@ uv run pytest
 uv run ruff check .
 ```
 
+Hooks run `ruff --fix` and a few cheap file checks on every commit, and the tests on every push:
+
+```bash
+uv tool install pre-commit
+pre-commit install -t pre-commit -t pre-push
+```
+
 ## Citing
 
 This backend implements **Exploiting Longitudinal Context in Clinician-Verified
